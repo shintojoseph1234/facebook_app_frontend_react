@@ -1,40 +1,40 @@
 export default function() {
   return [
-    // {
-    //   title: "Blog Dashboard",
-    //   to: "/blog-overview",
-    //   htmlBefore: '<i class="material-icons">edit</i>',
-    //   htmlAfter: ""
-    // },
-    // {
-    //   title: "Blog Posts",
-    //   htmlBefore: '<i class="material-icons">vertical_split</i>',
-    //   to: "/blog-posts",
-    // },
     {
-      title: "Add New Post",
-      htmlBefore: '<i class="material-icons">note_add</i>',
-      to: "/add-new-post",
+      title: "Dashboard",
+      to: "#",
+      htmlBefore: '<i class="material-icons">home</i>',
+      htmlAfter: ""
     },
     {
-      title: "Forms & Components",
-      htmlBefore: '<i class="material-icons">view_module</i>',
-      to: "/components-overview",
+      title: "Website",
+      htmlBefore: '<i class="material-icons">web</i>',
+      to: "#",
     },
     {
-      title: "Tables",
-      htmlBefore: '<i class="material-icons">table_chart</i>',
+      title: "Visitors",
+      htmlBefore: '<i class="material-icons">mouse</i>',
+      to: "#",
+    },
+    {
+      title: "Reviews",
+      htmlBefore: '<i class="material-icons">star</i>',
+      to: "#",
+    },
+    {
+      title: "Listings",
+      htmlBefore: '<i class="material-icons">list</i>',
       to: "/tables",
     },
     {
-      title: "User Profile",
-      htmlBefore: '<i class="material-icons">person</i>',
-      to: "/user-profile-lite",
+      title: "Appointments",
+      htmlBefore: '<i class="material-icons">event</i>',
+      to: "#",
     },
-    // {
-    //   title: "Errors",
-    //   htmlBefore: '<i class="material-icons">error</i>',
-    //   to: "/errors",
-    // }
+    {
+      title: "Settings",
+      htmlBefore: '<i class="material-icons">settings</i>',
+      to: "#",
+    }
   ];
 }

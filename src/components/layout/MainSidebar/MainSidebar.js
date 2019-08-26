@@ -44,11 +44,14 @@ class MainSidebar extends React.Component {
       "col-12",
       this.state.menuVisible && "open"
     );
+    const backgroundObj = {background: "#02b8ab"};
 
     return (
       <Col
         tag="aside"
         className={classes}
+        style={backgroundObj}
+
         lg={{ size: 2 }}
         md={{ size: 3 }}
       >

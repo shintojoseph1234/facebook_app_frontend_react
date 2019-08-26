@@ -19,28 +19,26 @@ class SidebarMainNavbar extends React.Component {
 
   render() {
     const { hideLogoText } = this.props;
+    const backgroundObj = {background: "#02968c"};
+    const letterColorObj = {color: 'white'};
+
     return (
-      <div className="main-navbar">
+      <div className="main-navbar" >
         <Navbar
-          className="align-items-stretch bg-white flex-md-nowrap border-bottom p-0"
+          className="align-items-stretch bg-magenta flex-md-nowrap border-bottom p-0"
           type="light"
+          style={backgroundObj}
         >
           <NavbarBrand
             className="w-100 mr-0"
             href="#"
             style={{ lineHeight: "25px" }}
+
           >
             <div className="d-table m-auto">
-              <img
-                id="main-logo"
-                className="d-inline-block align-top mr-1"
-                style={{ maxWidth: "25px" }}
-                src={require("../../../images/shards-dashboards-logo.svg")}
-                alt="Shards Dashboard"
-              />
               {!hideLogoText && (
-                <span className="d-none d-md-inline ml-1">
-                  Shards Dashboard
+                <span className="d-none d-md-inline ml-1" style={letterColorObj}>
+                  GROWTH PLUG
                 </span>
               )}
             </div>
